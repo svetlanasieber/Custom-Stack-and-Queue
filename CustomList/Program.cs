@@ -1,4 +1,4 @@
-﻿namespace _01.CustomList
+﻿namespace CustomList
 {
     internal class Program
     {
@@ -56,9 +56,6 @@
                 Console.Write(list[i] + " ");
             }
             Console.WriteLine();
-
-            //20 3 5 6 7 8 9
-            //20 3 5 100 6 7 8 9
 
             list.Insert(3, 100);
 
