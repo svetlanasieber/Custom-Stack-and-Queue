@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01.CustomList
+namespace CustomList
 {
     public class CustomList<T>
         where T : IComparable
@@ -54,7 +54,7 @@ namespace _01.CustomList
 
             T removedValue = this.items[index];
 
-            //rearrange
+          
             for (int i = index; i < this.counter - 1; i++)
             {
                 this.items[i] = this.items[i + 1];
@@ -62,7 +62,7 @@ namespace _01.CustomList
 
             this.counter--;
 
-            //shrink
+       
             if (this.items.Length / 2 >= this.counter)
             {
                 T[] tempArray = new T[this.counter];
