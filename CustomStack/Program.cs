@@ -1,4 +1,4 @@
-﻿namespace _02.CustomStack
+﻿namespace CustomStack
 {
     internal class Program
     {
